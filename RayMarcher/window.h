@@ -51,7 +51,10 @@ public:
             SDL_Quit();
         }
     }
-
+    void update_size()
+    {
+        SDL_GetWindowSize(window_, &width_, &height_);
+    }
     int get_width() const
     {
         return width_;

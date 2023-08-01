@@ -158,8 +158,10 @@
     <ClCompile Include="RayMarcher.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="shaders\fractal.frag" />
     <ClInclude Include="shaders\fragment.frag" />
     <ClInclude Include="shader.h" />
+    <ClInclude Include="vec3.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <ItemGroup>
